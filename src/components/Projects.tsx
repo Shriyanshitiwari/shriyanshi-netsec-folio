@@ -4,18 +4,18 @@ import { Button } from "@/components/ui/button";
 const Projects = () => {
   const projects = [
     {
+      title: "Fake News Detection System",
+      date: "Nov 2025",
+      domain: "AI/ML",
+      tech: ["Python", "NLP", "Machine Learning"],
+      description: "Uses AI/ML techniques to automatically distinguish between true and false news articles based on content and metadata. Analyzes text features, source credibility and engagement patterns to help users and platforms flag potentially misleading or fabricated news before it spreads widely.",
+    },
+    {
       title: "Secure File Sharing using Hash",
-      date: "Nov 2024",
+      date: "May 2025",
       domain: "Cyber Security",
       tech: ["JavaScript", "Node.js", "MongoDB"],
       description: "Incorporating hashing in secure file sharing systems to provide high-level security, ensuring data protection from unauthorized modification and confirming the authenticity of the sender and file integrity.",
-    },
-    {
-      title: "Hotel Management Website",
-      date: "Oct 2023",
-      domain: "Front-End Development",
-      tech: ["HTML", "CSS", "JavaScript", "jQuery"],
-      description: "An online platform for managing various aspects of hotel business, including reservations, guest services, and administrative tasks. Streamlines operations and enhances customer experience.",
     },
     {
       title: "Leftover Food Management System",

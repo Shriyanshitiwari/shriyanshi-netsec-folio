@@ -1,7 +1,28 @@
 import { Button } from "@/components/ui/button";
 import profileImg from "@/assets/profile.jpeg";
+import { useState, useEffect } from "react";
 
 const Hero = () => {
+  const cyberTerms = [
+    "Network Security",
+    "Penetration Testing",
+    "Threat Analysis",
+    "Encryption",
+    "Firewall Protection",
+    "Vulnerability Assessment",
+    "Security Auditing"
+  ];
+  
+  const [currentTerm, setCurrentTerm] = useState(0);
+  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentTerm((prev) => (prev + 1) % cyberTerms.length);
+    }, 2000);
+    
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section className="min-h-screen flex items-center justify-center px-6 py-20">
       <div className="container mx-auto max-w-6xl">
@@ -11,6 +32,11 @@ const Hero = () => {
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
               SHRIYANSHI TIWARI
             </h1>
+            <div className="h-8 flex items-center">
+              <p className="text-primary text-xl font-semibold animate-fade-in">
+                {cyberTerms[currentTerm]}
+              </p>
+            </div>
             <p className="text-muted-foreground text-lg">
               An aspiring network engineer passionate about cybersecurity and building secure digital infrastructure.
             </p>

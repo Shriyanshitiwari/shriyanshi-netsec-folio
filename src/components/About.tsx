@@ -10,7 +10,7 @@ const About = () => {
           <div className="space-y-6 text-muted-foreground leading-relaxed">
             <p>
               My name is Shriyanshi Tiwari, and I'm an aspiring network engineer with a strong passion for cybersecurity. 
-              Currently pursuing my Bachelor's in Computer Application at Lovely Professional University with a CGPA of 7.81.
+              Currently pursuing my Bachelor's in Computer Application at Lovely Professional University with a CGPA of 8.3.
             </p>
             <p>
               My primary focus is on network security and secure system development. I specialize in building secure applications 
@@ -18,10 +18,10 @@ const About = () => {
               Python, along with frameworks like Node.js for backend development.
             </p>
             <p>
-              I've completed multiple certifications including Cyber Security Fundamentals from IBM and have hands-on experience 
-              with projects involving secure file sharing systems, hash-based security implementations, and web development. 
-              I'm constantly learning and staying up-to-date with the latest security technologies to enhance my skills and 
-              deliver cutting-edge solutions.
+              I've completed multiple certifications including Critical Infrastructure Protection from OPSWAT Academy and Cyber Security 
+              Fundamentals from IBM. I have hands-on experience with projects involving secure file sharing systems, AI/ML-based fake news 
+              detection, and web development. I'm constantly learning and staying up-to-date with the latest security technologies to 
+              enhance my skills and deliver cutting-edge solutions.
             </p>
           </div>
           <div className="space-y-6">
@@ -30,8 +30,8 @@ const About = () => {
               <div className="space-y-4">
                 <div>
                   <h4 className="font-semibold text-primary">Bachelor's in Computer Application</h4>
-                  <p className="text-sm text-muted-foreground">Lovely Professional University | 2022 - Present</p>
-                  <p className="text-sm">CGPA: 7.81</p>
+                  <p className="text-sm text-muted-foreground">Lovely Professional University | Aug 2022 - Jul 2025</p>
+                  <p className="text-sm">CGPA: 8.3</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-primary">Higher Secondary School</h4>

@@ -3,6 +3,11 @@ import { Award } from "lucide-react";
 const Certificates = () => {
   const certificates = [
     {
+      title: "Introduction to Critical Infrastructure Protection",
+      issuer: "OPSWAT Academy",
+      date: "Jul 2025",
+    },
+    {
       title: "Cyber Security Fundamentals",
       issuer: "IBM",
       date: "Jul 2024",
