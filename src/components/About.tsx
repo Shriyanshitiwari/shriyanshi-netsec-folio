@@ -10,7 +10,7 @@ const About = () => {
           <div className="space-y-6 text-muted-foreground leading-relaxed">
             <p>
               My name is Shriyanshi Tiwari, and I'm an Aspiring Network Engineer with a strong passion for cybersecurity. 
-              Currently pursuing my Master's in Computer Application at Lovely Professional University with a CGPA of 8.3.
+              Currently pursuing my Master's in Computer Application at Lovely Professional University.
             </p>
             <p>
               My primary focus is on network security and secure system development. I specialize in building secure applications 
