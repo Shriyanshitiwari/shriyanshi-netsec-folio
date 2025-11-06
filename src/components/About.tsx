@@ -29,7 +29,7 @@ const About = () => {
               <h3 className="text-xl font-bold mb-4">Education</h3>
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-primary">Bachelor's in Computer Application</h4>
+                  <h4 className="font-semibold text-primary">Master's in Computer Application</h4>
                   <p className="text-sm text-muted-foreground">Lovely Professional University, Phagwara | Aug 2025 - Present</p>
                 </div>
                 <div>
