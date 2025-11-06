@@ -27,17 +27,10 @@ const About = () => {
           <div className="space-y-6">
             <div className="bg-card border border-border rounded-lg p-6">
               <h3 className="text-xl font-bold mb-4">Education</h3>
-              <div className="space-y-4">
-                <div>
-                  <h4 className="font-semibold text-primary">Bachelor's in Computer Application</h4>
-                  <p className="text-sm text-muted-foreground">Lovely Professional University | Aug 2022 - Jul 2025</p>
-                  <p className="text-sm">CGPA: 8.3</p>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-primary">Higher Secondary School</h4>
-                  <p className="text-sm text-muted-foreground">TATA DAV School | 2019-20</p>
-                  <p className="text-sm">Percentage: 86%</p>
-                </div>
+              <div>
+                <h4 className="font-semibold text-primary">Bachelor's in Computer Application</h4>
+                <p className="text-sm text-muted-foreground">Lovely Professional University, Phagwara | Aug 2022 - Jul 2025</p>
+                <p className="text-sm">CGPA: 8.3</p>
               </div>
             </div>
             <div className="flex gap-4">
