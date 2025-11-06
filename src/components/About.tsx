@@ -9,8 +9,8 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-6 text-muted-foreground leading-relaxed">
             <p>
-              My name is Shriyanshi Tiwari, and I'm an aspiring network engineer with a strong passion for cybersecurity. 
-              Currently pursuing my Bachelor's in Computer Application at Lovely Professional University with a CGPA of 8.3.
+              My name is Shriyanshi Tiwari, and I'm an Aspiring Network Engineer with a strong passion for cybersecurity. 
+              Currently pursuing my Master's in Computer Application at Lovely Professional University with a CGPA of 8.3.
             </p>
             <p>
               My primary focus is on network security and secure system development. I specialize in building secure applications 
